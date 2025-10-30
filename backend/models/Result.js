@@ -79,7 +79,7 @@ const resultSchema = new mongoose.Schema(
   },
 )
 
-// Compound index for efficient queries
+// Compound index for efficient queries ...
 resultSchema.index({ prn: 1, year: 1, semester: 1 })
 
 module.exports = mongoose.model("Result", resultSchema)
