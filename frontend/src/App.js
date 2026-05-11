@@ -7,6 +7,8 @@ import StudentResult from "./components/student/StudentResult"
 import ResultView from "./components/student/ResultView"
 import "./App.css"
 
+
+
 function App() {
   return (
     <Router>
